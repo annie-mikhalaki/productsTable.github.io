@@ -12,8 +12,8 @@ export const fetchProducts = createAsyncThunk<any>(
     'products/fetchProducts',
     async (thunkAPI) => {
         const response = await axios.all([
-            axios.get('/documents1'), 
-            axios.get('/documents2')
+            axios.get('https://storage.yandexcloud.net/products-table/documents1.json'),
+            axios.get('https://storage.yandexcloud.net/products-table/documents1.json'), 
         ]).then(axios.spread((result1, result2) => {
             return [...result1.data, ...result2.data]
         }));
