@@ -11,9 +11,12 @@ const initialState = { products: [], loading: 'idle' } as ProductsState
 export const fetchProducts = createAsyncThunk<any>(
     'products/fetchProducts',
     async (thunkAPI) => {
+        const isLocalEnvironment = process.env.NODE_ENV === 'development'
+        const document1Url = isLocalEnvironment ? '/documents1' : 'https://storage.yandexcloud.net/products-table/documents1.json'
+        const document2Url = isLocalEnvironment ? '/documents2' : 'https://storage.yandexcloud.net/products-table/documents2.json'
         const response = await axios.all([
-            axios.get('https://storage.yandexcloud.net/products-table/documents1.json'),
-            axios.get('https://storage.yandexcloud.net/products-table/documents1.json'), 
+            axios.get(document1Url),
+            axios.get(document2Url), 
         ]).then(axios.spread((result1, result2) => {
             return [...result1.data, ...result2.data]
         }));
