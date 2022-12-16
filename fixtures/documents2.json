@@ -1,0 +1,42 @@
+[
+    {
+        "id": "item_004",
+        "status": "active",
+        "sum": 400,
+        "qty": 2,
+        "volume": 200,
+        "name": "LG Sound Bar S40Q",
+        "delivery_date": "2023-02-07T17:00:00",
+        "currency": "€"
+    },
+    {
+        "id": "item_005",
+        "status": "archive",
+        "sum": 7000,
+        "qty": 1,
+        "volume": 7000,
+        "name": "Wine Cellar LSR200W",
+        "delivery_date": "2023-01-10T14:00:00",
+        "currency": "€"
+    },
+    {
+        "id": "item_006",
+        "status": "active",
+        "sum": 3450,
+        "qty": 3,
+        "volume": 1150,
+        "name": "27 UltraFine™ 5K Monitor",
+        "delivery_date": "2023-03-10T10:00:00",
+        "currency": "€"
+    },
+    {
+        "id": "item_007",
+        "status": "archive",
+        "sum": 6000,
+        "qty": 3,
+        "volume": 2000,
+        "name": "LG OLED 4K TV",
+        "delivery_date": "2023-04-10T14:00:00",
+        "currency": "€"
+    }
+]

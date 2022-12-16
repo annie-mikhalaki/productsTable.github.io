@@ -1,0 +1,32 @@
+[
+    {
+        "id": "item_001",
+        "status": "active",
+        "sum": 2900,
+        "qty": 2,
+        "volume": 1450,
+        "name": "APPLE IPHONE 14 PLUS",
+        "delivery_date": "2023-03-01T14:00:00",
+        "currency": "€"
+    },
+    {
+        "id": "item_002",
+        "status": "archive",
+        "sum": 1499,
+        "qty": 1,
+        "volume": 1499,
+        "name": "S95B Samsung OLED",
+        "delivery_date": "2023-02-10T14:00:00",
+        "currency": "€"
+    },
+    {
+        "id": "item_003",
+        "status": "active",
+        "sum": 1050,
+        "qty": 3,
+        "volume": 350,
+        "name": "LG XBOOM AI ThinQ",
+        "delivery_date": "2022-02-12T14:00:00",
+        "currency": "€"
+    }
+]
